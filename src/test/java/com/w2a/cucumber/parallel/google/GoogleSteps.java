@@ -22,6 +22,7 @@ public class GoogleSteps extends BaseSteps {
 	
 	@Before
 	public void before(Scenario scenario){
+		// scenario numbers
 		x=x+1;
 		this.scenario = scenario;
 		scenarioName = scenario.getName();
