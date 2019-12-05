@@ -47,7 +47,7 @@ public class GoogleSteps extends BaseSteps {
 		ExtentTestManager.logInfo("Launching browser: "+browserName);
 		startWebDriver(browserName);
 	}
-
+//navigation
 	@When("^user navigates to '(.*?)'$")
 	public void user_navigates_to_http_google_com(String url) throws Throwable {
 		navigate(url);

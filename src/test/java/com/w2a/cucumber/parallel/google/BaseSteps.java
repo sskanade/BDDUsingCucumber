@@ -10,7 +10,7 @@ public class BaseSteps {
 
 	protected WebDriver driver;
 	public static ThreadLocal<WebDriver> dr = new  ThreadLocal<WebDriver>();
-	
+	// init
 	public static WebDriver getDriver(){
 		return dr.get();
 	}
