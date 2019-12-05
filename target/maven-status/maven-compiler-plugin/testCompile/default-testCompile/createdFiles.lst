@@ -1,0 +1,6 @@
+com\w2a\cucumber\parallel\google\GoogleSteps.class
+com\w2a\cucumber\parallel\google\runners\SearchOutlineFeature.class
+com\w2a\cucumber\parallel\extent\ExtentTestManager.class
+com\w2a\cucumber\parallel\google\runners\SearchManyFeature.class
+com\w2a\cucumber\parallel\extent\ExtentManager.class
+com\w2a\cucumber\parallel\google\BaseSteps.class
